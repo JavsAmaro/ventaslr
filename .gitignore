@@ -1,0 +1,6 @@
+
+.ftpquota
+*.txt
+css/
+scss/
+vendor/

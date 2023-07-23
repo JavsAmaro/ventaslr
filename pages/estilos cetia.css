@@ -1,0 +1,149 @@
+/*Menu---> */
+.action_button:hover, .action_button:hover {
+    background-color: #fece00;
+    color: #6622bb;
+		border-radius: 50px;
+}
+
+.header-plain #Top_bar a#header_cart, .header-plain #Top_bar a#search_button, .header-plain #Top_bar .wpml-languages, .header-plain #Top_bar a.action_button {
+    line-height: 48px;
+	
+}
+.header-plain #Top_bar, .header-plain #Top_bar .menu>li>a span:not(.description), .header-plain #Top_bar a#header_cart, .header-plain #Top_bar a#search_button, .header-plain #Top_bar .wpml-languages, .header-plain #Top_bar .action_button {
+    border-color: transparent; 
+}
+
+#Top_bar .top_bar_right, .header-plain #Top_bar .top_bar_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-plain #Top_bar .action_button {
+    border-radius: 50px;
+	
+}
+
+body {
+    font-size: 21px;
+   font-weight: 500;
+}
+
+
+
+
+
+/* <-------Menu*/
+
+
+
+
+
+
+/*
+.column, .columns {
+     margin: 0px; 
+}*/
+
+/* medidas 120px 5% 80px*/
+
+.f-morado{
+		color:#fff;
+bottom: 2vw;
+	position: relative;
+background: linear-gradient(to bottom, #6622bb 86%, #fff 10%);
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 1480px) { 
+.f-morado{
+		color:#fff;
+bottom: 2vw;
+	position: relative;
+background: linear-gradient(to bottom, #6622bb 100%, #fff 10%);
+}
+}
+
+
+
+
+.f-blanco{
+		color:#fff;
+bottom: 2vw;
+	position: relative;
+background: linear-gradient(to bottom, #fff 86%, #6622bb 10%);
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 1480px) { 
+.f-blanco{
+		color:#fff;
+bottom: 2vw;
+	position: relative;
+background: linear-gradient(to bottom, #fff 100%, #6622bb 10%);
+}
+}
+
+
+
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+.section.full-width>.section_wrapper {
+    max-width: 90%!important;
+}
+}
+ 
+@media (max-width: 767px) { 
+
+.section.full-width>.section_wrapper {
+    max-width: 90%!important;
+}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+
+
+h2.fondo-b{
+		color:#6622bb;
+}
+
+h3.fondo-b{
+		color:#6622bb;
+}
+p.fondo-b{
+		color:#5e5f66;
+}
+
+
+
+h2.fondo-m{
+		color:#fff;
+}
+
+h3.fondo-m{
+		color:#fff;
+}
+
+
+/*boton*/
+.button-default .button, .button-flat .button, .button-round .button {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+
+
+.action_button, .action_button:hover {
+    background-color: #6622bb;
+    color: #ffffff;
+	
+}
